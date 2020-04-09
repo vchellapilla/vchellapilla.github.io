@@ -1,0 +1,222 @@
+/*Below are the styles for Overall*/
+body {
+    width: 100%;
+    float: left;
+    background-color: #D4F1F4;
+}
+
+.leftpanel, .toppanel, .bottompanel{
+    float: left;
+    height: 550px;
+    padding: 0px;
+    background-color: #D4F1F4;
+}
+
+.leftpanel{
+    width: 15%;
+}
+
+img.headernamepic{
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 40px;
+    height: 500px;
+    width: 150px;
+
+}
+
+.toppanel{
+    width: 85%;
+    height:150px;
+}
+
+nav{
+    text-align: center;
+    display:block;
+    margin-top:30px; 
+    padding:0px;
+}
+
+nav ul{
+    padding:0px;
+    margin:0px;
+    display:inline-block;
+    list-style-type:none 
+}
+
+nav ul li{
+    display:inline-block;
+    width:150px;
+    background-color::#D4F1F4;
+    text-align:center;
+    margin:0px;
+    padding-bottom:0.5em;
+    padding-top:0.5em;
+    letter-spacing: 0.1em;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size:9pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bottompanel{
+    float: right;
+    width: 85%;
+    height: 400px;
+}
+
+p.pageheads{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 1px;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+
+p{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*This is only for the Home Page*/
+aside{
+    float:left; 
+    width:10em;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.vcimage{
+    border-radius: 15%;
+    height: 200px;
+    width: 200px;
+}
+
+p.intropara{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-left: 450px;
+    margin-right: 120px;
+    margin-top: 65px;
+}
+
+/* This is only for the About page*/
+p.about{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 25px;
+}
+
+/* This is mainly for the Stories and Projects page (but is also used in teh About page)*/
+p.stories{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 1px;
+}
+
+p.storysections_head{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 1px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p.storysections_headline{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(77, 76, 76);
+}
+
+a{
+    color: ;
+    text-decoration: none;
+}
+
+p.storysections_info{
+    background-color: #D4F1F4;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 1px;
+    font-style: italic;;
+}
+
+/*For Socials' icons*/
+.fa{
+    padding: 50px;
+    font-size: 50px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    height: 150px
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-twitter{
+    background: #D4F1F4;
+    color: black;
+}
+
+.fa-linkedin{
+    background: #D4F1F4;
+    color: black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext {
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltiptext{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+}
